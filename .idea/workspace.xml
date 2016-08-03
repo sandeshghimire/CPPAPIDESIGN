@@ -2,7 +2,60 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
     <generated>
+      <config projectName="APIBook" targetName="operators" />
+      <config projectName="APIBook" targetName="stack_datadriven" />
+      <config projectName="APIBook" targetName="version_api" />
+      <config projectName="APIBook" targetName="plugin_api" />
+      <config projectName="APIBook" targetName="plugin2" />
+      <config projectName="APIBook" targetName="visitor" />
+      <config projectName="APIBook" targetName="plugin1" />
+      <config projectName="APIBook" targetName="coreapi" />
+      <config projectName="APIBook" targetName="proxy_simple" />
+      <config projectName="APIBook" targetName="constructors" />
+      <config projectName="APIBook" targetName="singleton" />
+      <config projectName="APIBook" targetName="coord2d_template" />
+      <config projectName="APIBook" targetName="callback_instance" />
+      <config projectName="APIBook" targetName="arglist_test" />
+      <config projectName="APIBook" targetName="gcc_plugin" />
+      <config projectName="APIBook" targetName="template_polymorphism" />
+      <config projectName="APIBook" targetName="named_parameters" />
+      <config projectName="APIBook" targetName="pimpl_boost" />
+      <config projectName="APIBook" targetName="gcc_entry_point" />
+      <config projectName="APIBook" targetName="extern_leakage" />
+      <config projectName="APIBook" targetName="stack_c" />
+      <config projectName="APIBook" targetName="factory_simple" />
+      <config projectName="APIBook" targetName="pimpl_bad" />
+      <config projectName="APIBook" targetName="proxy_interface" />
+      <config projectName="APIBook" targetName="iterators" />
+      <config projectName="APIBook" targetName="unit_test" />
+      <config projectName="APIBook" targetName="template_explicit" />
+      <config projectName="APIBook" targetName="shared_pointer" />
+      <config projectName="APIBook" targetName="const_reference" />
+      <config projectName="APIBook" targetName="curious_templates" />
+      <config projectName="APIBook" targetName="template_specialization" />
+      <config projectName="APIBook" targetName="stack_template" />
+      <config projectName="APIBook" targetName="virtual_speed" />
+      <config projectName="APIBook" targetName="copy_on_write" />
+      <config projectName="APIBook" targetName="self_test" />
+      <config projectName="APIBook" targetName="stack_cpp" />
+      <config projectName="APIBook" targetName="stack_preprocessor" />
+      <config projectName="APIBook" targetName="deprecate_runtime" />
       <config projectName="CPPAPIDESIGN" targetName="CPPAPIDESIGN" />
+      <config projectName="APIBook" targetName="callback_static" />
+      <config projectName="APIBook" targetName="deprecate_compiletime" />
+      <config projectName="APIBook" targetName="struct_size" />
+      <config projectName="APIBook" targetName="bad_friends" />
+      <config projectName="APIBook" targetName="plugin" />
+      <config projectName="APIBook" targetName="adapter" />
+      <config projectName="APIBook" targetName="hide_class" />
+      <config projectName="APIBook" targetName="facade" />
+      <config projectName="APIBook" targetName="factory_extensible" />
+      <config projectName="APIBook" targetName="getter_speed" />
+      <config projectName="APIBook" targetName="library" />
+      <config projectName="APIBook" targetName="pimp_good" />
+      <config projectName="APIBook" targetName="opaque_pointer" />
+      <config projectName="APIBook" targetName="autotimer" />
+      <config projectName="APIBook" targetName="observer" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
@@ -12,9 +65,513 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e2719f9-ed88-477b-8423-26ddbeac28e7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/callback_instance/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/callback_instance/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/callback_instance/modulea.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/callback_instance/modulea.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/callback_instance/moduleb.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/callback_instance/moduleb.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/callback_static/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/callback_static/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/callback_static/modulea.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/callback_static/modulea.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/callback_static/moduleb.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/callback_static/moduleb.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/coord2d_template/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/coord2d_template/coord2d.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/coord2d_template/coord2d_detail.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/coord2d_template/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/hide_class/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/hide_class/fireworks.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/hide_class/fireworks.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/hide_class/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/shared_pointer/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/shared_pointer/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/shared_pointer/myobject.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_Qualities/shared_pointer/myobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/adapter/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/adapter/adapter.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/adapter/adapter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/adapter/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/adapter/original.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/adapter/original.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/facade/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/facade/facade.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/facade/facade.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/facade/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/facade/original.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/facade/original.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/factory_extensible/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/factory_extensible/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/factory_extensible/renderer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/factory_extensible/rendererfactory.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/factory_extensible/rendererfactory.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/factory_simple/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/factory_simple/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/factory_simple/renderer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/factory_simple/rendererfactory.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/factory_simple/rendererfactory.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/observer/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/observer/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/observer/observer.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/observer/observer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/observer/subject.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/observer/subject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/opaque_pointer/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/opaque_pointer/autotimer.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/opaque_pointer/autotimer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/opaque_pointer/main.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/pimpl_bad/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/pimpl_bad/autotimer.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/pimpl_bad/autotimer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/pimpl_bad/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/pimpl_boost/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/pimpl_boost/autotimer.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/pimpl_boost/autotimer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/pimpl_boost/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/pimpl_good/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/pimpl_good/autotimer.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/pimpl_good/autotimer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/pimpl_good/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/proxy_interface/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/proxy_interface/ioriginal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/proxy_interface/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/proxy_interface/original.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/proxy_interface/original.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/proxy_interface/proxy.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/proxy_interface/proxy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/proxy_simple/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/proxy_simple/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/proxy_simple/original.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/proxy_simple/original.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/proxy_simple/proxy.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/proxy_simple/proxy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/singleton/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/singleton/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/singleton/singleton.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_Patterns/singleton/singleton.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04_Design/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04_Design/named_parameters/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04_Design/named_parameters/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04_Design/named_parameters/timer.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04_Design/named_parameters/timer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/fmod_samples/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/fmod_samples/c_api.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/fmod_samples/cpp_api.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/fmod_samples/event_api.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_c/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_c/main.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_c/stack.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_c/stack.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_cpp/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_cpp/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_cpp/stack.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_cpp/stack.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_datadriven/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_datadriven/arglist.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_datadriven/arglist.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_datadriven/arglist_test.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_datadriven/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_datadriven/stack.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_datadriven/stack.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_preprocessor/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_preprocessor/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_preprocessor/stack.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_preprocessor/stack.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_template/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_template/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_template/stack.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_Styles/stack_template/stack_priv.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/bad_friends/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/bad_friends/graph.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/bad_friends/graph.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/bad_friends/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/bad_friends/node.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/bad_friends/node.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/constructors/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/constructors/array.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/constructors/array.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/constructors/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/extern_leakage/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/extern_leakage/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/extern_leakage/myobject.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/extern_leakage/myobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/operators/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/operators/currency.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/operators/currency.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/operators/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/template_explicit/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/template_explicit/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/template_explicit/stack.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/template_explicit/stack.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/template_polymorphism/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/template_polymorphism/file.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/template_polymorphism/file.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/template_polymorphism/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/template_specialization/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/template_specialization/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/template_specialization/stack.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_Cpp_Style/template_specialization/stack_priv.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/auto_timer/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/auto_timer/autotimer.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/auto_timer/autotimer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/const_reference/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/const_reference/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/const_reference/myobject.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/const_reference/myobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/copy_on_write/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/copy_on_write/cowptr.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/copy_on_write/cowptr_priv.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/copy_on_write/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/getter_speed/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/getter_speed/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/getter_speed/vector.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/getter_speed/vector.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/iterators/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/iterators/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/iterators/value.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/iterators/value.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/redundant_includes/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/redundant_includes/generate_includes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/struct_size/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/struct_size/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/virtual_speed/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/virtual_speed/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/virtual_speed/myclass.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_Performance/virtual_speed/myclass.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/deprecate_compiletime/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/deprecate_compiletime/deprecated.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/deprecate_compiletime/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/deprecate_compiletime/myclass.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/deprecate_compiletime/myclass.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/deprecate_runtime/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/deprecate_runtime/deprecated.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/deprecate_runtime/deprecated.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/deprecate_runtime/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/deprecate_runtime/myclass.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/deprecate_runtime/myclass.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/version_api/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/version_api/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/version_api/version.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Versioning/version_api/version.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09_Documentation/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09_Documentation/doxygen/Doxygen.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09_Documentation/doxygen/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09_Documentation/doxygen/overview.dox" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09_Documentation/doxygen/version.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Testing/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Testing/self_test/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Testing/self_test/bbox.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Testing/self_test/bbox.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Testing/self_test/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Testing/unit_test/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Testing/unit_test/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Testing/unit_test/stringutil.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Testing/unit_test/stringutil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Testing/wargame/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Testing/wargame/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Testing/wargame/test_mock.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Testing/wargame/test_stub.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Testing/wargame/wargame.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Testing/wargame/wargame.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11_Scripting/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11_Scripting/python/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11_Scripting/python/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11_Scripting/python/main2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11_Scripting/python/main3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11_Scripting/python/phonebook.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11_Scripting/python/phonebook.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11_Scripting/python/phonebook_wrap.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11_Scripting/ruby/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11_Scripting/ruby/extconf.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11_Scripting/ruby/main.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11_Scripting/ruby/phonebook.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11_Scripting/ruby/phonebook.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11_Scripting/ruby/phonebook.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/curious_templates/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/curious_templates/curious.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/curious_templates/curious_priv.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/curious_templates/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/plugin_api/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/plugin_api/coreapi.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/plugin_api/coreapi.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/plugin_api/defines.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/plugin_api/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/plugin_api/plugin1.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/plugin_api/plugin2.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/plugin_api/pluginapi.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/plugin_api/pluginapi.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/plugin_api/pluginmanager.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/plugin_api/pluginmanager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/plugin_api/renderer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/visitor/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/visitor/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/visitor/nodevisitor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/visitor/scenegraph.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Extensibility/visitor/scenegraph.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AA_Libraries/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AA_Libraries/gcc_entry_point/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AA_Libraries/gcc_entry_point/library.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AA_Libraries/gcc_entry_point/library.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AA_Libraries/gcc_entry_point/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AA_Libraries/gcc_plugin/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AA_Libraries/gcc_plugin/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AA_Libraries/gcc_plugin/plugin.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AA_Libraries/gcc_plugin/plugin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/configure.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/assert.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/cerrno.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/checked_delete.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/abi/borland_prefix.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/abi/borland_suffix.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/abi/msvc_prefix.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/abi/msvc_suffix.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/abi_prefix.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/abi_suffix.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/auto_link.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/borland.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/codegear.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/comeau.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/common_edg.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/compaq_cxx.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/digitalmars.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/gcc.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/gcc_xml.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/greenhills.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/hp_acc.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/intel.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/kai.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/metrowerks.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/mpw.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/pgi.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/sgi_mipspro.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/sunpro_cc.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/vacpp.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/compiler/visualc.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/no_tr1/cmath.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/no_tr1/complex.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/no_tr1/functional.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/no_tr1/memory.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/no_tr1/utility.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/platform/aix.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/platform/amigaos.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/platform/beos.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/platform/bsd.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/platform/cygwin.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/platform/hpux.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/platform/irix.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/platform/linux.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/platform/macos.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/platform/qnxnto.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/platform/solaris.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/platform/vxworks.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/platform/win32.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/posix_features.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/requires_threads.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/select_compiler_config.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/select_platform_config.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/select_stdlib_config.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/stdlib/dinkumware.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/stdlib/libcomo.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/stdlib/libstdcpp3.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/stdlib/modena.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/stdlib/msl.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/stdlib/roguewave.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/stdlib/sgi.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/stdlib/stlport.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/stdlib/vacpp.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/suffix.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/user.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/config/warning_disable.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/cstdint.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/cstdlib.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/current_function.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/detail/sp_typeinfo.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/detail/workaround.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/enable_shared_from_this.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/all.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/current_exception_cast.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/detail/attribute_noreturn.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/detail/error_info_impl.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/detail/exception_ptr.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/detail/is_output_streamable.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/detail/object_hex_dump.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/detail/type_info.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/diagnostic_information.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/enable_current_exception.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/enable_error_info.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/errinfo_api_function.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/errinfo_at_line.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/errinfo_errno.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/errinfo_file_handle.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/errinfo_file_name.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/errinfo_file_open_mode.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/errinfo_nested_exception.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/errinfo_type_info_name.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/error_info.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/exception.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/get_error_info.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/info.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/info_tuple.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/to_string.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception/to_string_stub.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/exception_ptr.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/generator_iterator.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/get_pointer.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/intrusive_ptr.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/make_shared.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/memory_order.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/next_prior.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/non_type.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/noncopyable.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/none.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/none_t.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/optional.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/parameter.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/pointer_cast.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/pointer_to_other.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/scoped_array.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/scoped_ptr.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/shared_array.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/shared_ptr.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/connection.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/deconstruct.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/deconstruct_ptr.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/auto_buffer.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/lwm_nop.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/lwm_pthreads.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/lwm_win32_cs.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/null_output_iterator.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/preprocessed_arg_type.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/preprocessed_arg_type_template.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/replace_slot_function.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/result_type_wrapper.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/signal_template.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/signals_common.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/signals_common_macros.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/slot_call_iterator.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/slot_groups.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/slot_template.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/tracked_objects_visitor.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/unique_lock.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/variadic_arg_type.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/detail/variadic_slot_invoker.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/dummy_mutex.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/last_value.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/mutex.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/optional_last_value.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/postconstructible.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/predestructible.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/preprocessed_signal.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/preprocessed_slot.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/shared_connection_block.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/signal.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/signal_base.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/signal_type.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/slot.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/slot_base.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/trackable.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/variadic_signal.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/signals2/variadic_slot.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/bad_weak_ptr.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/atomic_count.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/atomic_count_gcc.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/atomic_count_gcc_x86.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/atomic_count_pthreads.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/atomic_count_solaris.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/atomic_count_sync.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/atomic_count_win32.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/lightweight_mutex.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/lwm_nop.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/lwm_pthreads.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/lwm_win32_cs.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/operator_bool.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/quick_allocator.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/shared_array_nmt.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/shared_count.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/shared_ptr_nmt.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_convertible.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_base.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_base_acc_ia64.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_base_cw_ppc.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_base_cw_x86.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_base_gcc_ia64.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_base_gcc_mips.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_base_gcc_ppc.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_base_gcc_sparc.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_base_nt.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_base_pt.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_base_solaris.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_base_spin.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_base_sync.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_base_w32.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_counted_impl.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/sp_has_sync.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/spinlock.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/spinlock_gcc_arm.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/spinlock_nt.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/spinlock_pool.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/spinlock_pt.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/spinlock_sync.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/spinlock_w32.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/detail/yield_k.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/enable_shared_from_this.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/enable_shared_from_this2.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/intrusive_ptr.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/make_shared.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/scoped_array.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/scoped_ptr.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/shared_array.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/shared_ptr.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/smart_ptr/weak_ptr.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/throw_exception.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/tuple/detail/tuple_basic.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/tuple/detail/tuple_basic_no_partial_spec.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/tuple/tuple.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/tuple/tuple_comparison.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/tuple/tuple_io.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/type.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/type_traits.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/utility.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/utility/addressof.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/utility/base_from_member.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/utility/binary.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/utility/compare_pointees.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/utility/detail/in_place_factory_prefix.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/utility/detail/in_place_factory_suffix.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/utility/detail/result_of_iterate.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/utility/enable_if.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/utility/in_place_factory.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/utility/result_of.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/utility/swap.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/utility/typed_in_place_factory.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/utility/value_init.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/version.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/boost/weak_ptr.hpp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/CPPAPIDESIGN.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CPPAPIDESIGN.iml" afterPath="$PROJECT_DIR$/.idea/CPPAPIDESIGN.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
     </list>
     <ignored path="CPPAPIDESIGN.iws" />
@@ -34,48 +591,7 @@
     <favorites_list name="CPPAPIDESIGN" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -154,7 +670,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="02_Qualities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -171,7 +687,7 @@
       <recent name="V:\private\CPPAPIDESIGN\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CPPAPIDESIGN">
+  <component name="RunManager" selected="Application.Build All">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPPAPIDESIGN" TARGET_NAME="CPPAPIDESIGN" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
@@ -213,6 +729,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -335,13 +857,281 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="callback_instance" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="callback_instance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="callback_instance">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="callback_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="callback_static" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="callback_static">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="coord2d_template" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="coord2d_template" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="coord2d_template">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="hide_class" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="hide_class" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="hide_class">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="shared_pointer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="shared_pointer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="shared_pointer">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="adapter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="adapter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="adapter">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="facade" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="facade" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="facade">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="factory_extensible" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="factory_extensible" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="factory_extensible">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="factory_simple" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="factory_simple" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="factory_simple">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="observer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="observer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="observer">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="opaque_pointer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="opaque_pointer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="opaque_pointer">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="pimpl_bad" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="pimpl_bad" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="pimpl_bad">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="pimpl_boost" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="pimpl_boost" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="pimpl_boost">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="pimp_good" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="pimp_good" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="pimp_good">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="proxy_interface" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="proxy_interface" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="proxy_interface">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="proxy_simple" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="proxy_simple" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="proxy_simple">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="singleton" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="singleton" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="singleton">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="named_parameters" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="named_parameters" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="named_parameters">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="stack_c" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="stack_c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="stack_c">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="stack_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="stack_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="stack_cpp">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="arglist_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="arglist_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="arglist_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="stack_datadriven" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="stack_datadriven" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="stack_datadriven">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="stack_preprocessor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="stack_preprocessor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="stack_preprocessor">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="stack_template" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="stack_template" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="stack_template">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="bad_friends" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="bad_friends" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="bad_friends">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="constructors" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="constructors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="constructors">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="extern_leakage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="extern_leakage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="extern_leakage">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="operators" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="operators" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="operators">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="template_explicit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="template_explicit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="template_explicit">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="template_polymorphism" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="template_polymorphism" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="template_polymorphism">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="template_specialization" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="template_specialization" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="template_specialization">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="autotimer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="autotimer" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="const_reference" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="const_reference" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="const_reference">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="copy_on_write" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="copy_on_write" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="copy_on_write">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="getter_speed" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="getter_speed" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="getter_speed">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="iterators" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="iterators" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="iterators">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="struct_size" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="struct_size" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="struct_size">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="virtual_speed" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="virtual_speed" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="virtual_speed">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="deprecate_compiletime" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="deprecate_compiletime" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="deprecate_compiletime">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="deprecate_runtime" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="deprecate_runtime" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="deprecate_runtime">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="version_api" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="version_api" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="version_api">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="self_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="self_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="self_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="unit_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="unit_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="unit_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="curious_templates" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="curious_templates" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="curious_templates">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="coreapi" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="coreapi" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="plugin1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="plugin1" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="plugin2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="plugin2" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="plugin_api" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="plugin_api" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="plugin_api">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="visitor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="visitor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="visitor">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="gcc_entry_point" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="gcc_entry_point" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="gcc_entry_point">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="library" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="gcc_plugin" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="gcc_plugin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="APIBook" RUN_TARGET_NAME="gcc_plugin">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="plugin" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="APIBook" TARGET_NAME="plugin" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <list size="55">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.CPPAPIDESIGN" />
+      <item index="2" class="java.lang.String" itemvalue="Application.callback_instance" />
+      <item index="3" class="java.lang.String" itemvalue="Application.callback_static" />
+      <item index="4" class="java.lang.String" itemvalue="Application.coord2d_template" />
+      <item index="5" class="java.lang.String" itemvalue="Application.hide_class" />
+      <item index="6" class="java.lang.String" itemvalue="Application.shared_pointer" />
+      <item index="7" class="java.lang.String" itemvalue="Application.adapter" />
+      <item index="8" class="java.lang.String" itemvalue="Application.facade" />
+      <item index="9" class="java.lang.String" itemvalue="Application.factory_extensible" />
+      <item index="10" class="java.lang.String" itemvalue="Application.factory_simple" />
+      <item index="11" class="java.lang.String" itemvalue="Application.observer" />
+      <item index="12" class="java.lang.String" itemvalue="Application.opaque_pointer" />
+      <item index="13" class="java.lang.String" itemvalue="Application.pimpl_bad" />
+      <item index="14" class="java.lang.String" itemvalue="Application.pimpl_boost" />
+      <item index="15" class="java.lang.String" itemvalue="Application.pimp_good" />
+      <item index="16" class="java.lang.String" itemvalue="Application.proxy_interface" />
+      <item index="17" class="java.lang.String" itemvalue="Application.proxy_simple" />
+      <item index="18" class="java.lang.String" itemvalue="Application.singleton" />
+      <item index="19" class="java.lang.String" itemvalue="Application.named_parameters" />
+      <item index="20" class="java.lang.String" itemvalue="Application.stack_c" />
+      <item index="21" class="java.lang.String" itemvalue="Application.stack_cpp" />
+      <item index="22" class="java.lang.String" itemvalue="Application.arglist_test" />
+      <item index="23" class="java.lang.String" itemvalue="Application.stack_datadriven" />
+      <item index="24" class="java.lang.String" itemvalue="Application.stack_preprocessor" />
+      <item index="25" class="java.lang.String" itemvalue="Application.stack_template" />
+      <item index="26" class="java.lang.String" itemvalue="Application.bad_friends" />
+      <item index="27" class="java.lang.String" itemvalue="Application.constructors" />
+      <item index="28" class="java.lang.String" itemvalue="Application.extern_leakage" />
+      <item index="29" class="java.lang.String" itemvalue="Application.operators" />
+      <item index="30" class="java.lang.String" itemvalue="Application.template_explicit" />
+      <item index="31" class="java.lang.String" itemvalue="Application.template_polymorphism" />
+      <item index="32" class="java.lang.String" itemvalue="Application.template_specialization" />
+      <item index="33" class="java.lang.String" itemvalue="Application.autotimer" />
+      <item index="34" class="java.lang.String" itemvalue="Application.const_reference" />
+      <item index="35" class="java.lang.String" itemvalue="Application.copy_on_write" />
+      <item index="36" class="java.lang.String" itemvalue="Application.getter_speed" />
+      <item index="37" class="java.lang.String" itemvalue="Application.iterators" />
+      <item index="38" class="java.lang.String" itemvalue="Application.struct_size" />
+      <item index="39" class="java.lang.String" itemvalue="Application.virtual_speed" />
+      <item index="40" class="java.lang.String" itemvalue="Application.deprecate_compiletime" />
+      <item index="41" class="java.lang.String" itemvalue="Application.deprecate_runtime" />
+      <item index="42" class="java.lang.String" itemvalue="Application.version_api" />
+      <item index="43" class="java.lang.String" itemvalue="Application.self_test" />
+      <item index="44" class="java.lang.String" itemvalue="Application.unit_test" />
+      <item index="45" class="java.lang.String" itemvalue="Application.curious_templates" />
+      <item index="46" class="java.lang.String" itemvalue="Application.coreapi" />
+      <item index="47" class="java.lang.String" itemvalue="Application.plugin1" />
+      <item index="48" class="java.lang.String" itemvalue="Application.plugin2" />
+      <item index="49" class="java.lang.String" itemvalue="Application.plugin_api" />
+      <item index="50" class="java.lang.String" itemvalue="Application.visitor" />
+      <item index="51" class="java.lang.String" itemvalue="Application.gcc_entry_point" />
+      <item index="52" class="java.lang.String" itemvalue="Application.library" />
+      <item index="53" class="java.lang.String" itemvalue="Application.gcc_plugin" />
+      <item index="54" class="java.lang.String" itemvalue="Application.plugin" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -350,33 +1140,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1470248230942</updated>
-      <workItem from="1470248232791" duration="307000" />
+      <workItem from="1470248232791" duration="1725000" />
+      <workItem from="1470254709956" duration="695000" />
+      <workItem from="1470255417866" duration="70000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307000" />
+    <option name="totallyTimeSpent" value="2490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16384777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -397,34 +1189,43 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_Performance/getter_speed/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
