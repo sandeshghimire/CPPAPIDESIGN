@@ -1,7 +1,4 @@
-cmake_minimum_required(VERSION 3.6)
+cmake_minimum_required(VERSION 3.0)
 project(CPPAPIDESIGN)
-
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-
-set(SOURCE_FILES src/main.cpp)
-add_executable(CPPAPIDESIGN ${SOURCE_FILES})
+add_subdirectory(src)
