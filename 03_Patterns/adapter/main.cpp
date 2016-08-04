@@ -11,11 +11,10 @@
 
 #include "adapter.h"
 
-int main(int, char **)
-{
-	// create an adapter object and call one of its functions
-	Adapter adapter;
-	adapter.DoSomething(42);
+int main(int, char **) {
+    // create an adapter object and call one of its functions
+    Adapter adapter;
+    adapter.DoSomething(42);
 
-	return 0;
+    return 0;
 }

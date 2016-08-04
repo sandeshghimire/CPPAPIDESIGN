@@ -19,12 +19,11 @@
 /// A factory object that creates instances of different
 /// 3D renderers.
 ///
-class RendererFactory
-{
+class RendererFactory {
 public:
-	/// Create a new instance of a named 3D renderer.
-	/// type can be one of "opengl", "directx", or "mesa"
-	IRenderer *CreateRenderer(const std::string &type);
+    /// Create a new instance of a named 3D renderer.
+    /// type can be one of "opengl", "directx", or "mesa"
+    IRenderer *CreateRenderer(const std::string &type);
 };
 
 #endif

@@ -17,58 +17,53 @@ using std::endl;
 
 namespace apibook {
 
-Fireworks::Fireworks() :
-	mOriginX(0.0),
-	mOriginY(0.0),
-	mRed(0.0),
-	mGreen(0.0),
-	mBlue(0.0),
-	mGravity(0.0),
-	mSpeed(0.0),
-	mIsActive(false)
-{
-}
+    Fireworks::Fireworks() :
+            mOriginX(0.0),
+            mOriginY(0.0),
+            mRed(0.0),
+            mGreen(0.0),
+            mBlue(0.0),
+            mGravity(0.0),
+            mSpeed(0.0),
+            mIsActive(false),
+            mNum(0.0) {
+    }
 
-void Fireworks::SetOrigin(double x, double y)
-{
-	mOriginX = x;
-	mOriginY = y;
-}
+    void Fireworks::SetOrigin(double x, double y) {
+        mOriginX = x;
+        mOriginY = y;
+    }
 
-void Fireworks::SetColor(float r, float g, float b)
-{
-	mRed   = r;
-	mGreen = g;
-	mBlue  = b;
-}
+    void Fireworks::SetColor(float r, float g, float b) {
+        mRed = r;
+        mGreen = g;
+        mBlue = b;
+        mNum = b / r;
+    }
 
-void Fireworks::SetGravity(float g)
-{
-	mGravity = g;
-}
+    void Fireworks::SetGravity(float g) {
+        mGravity = g;
+    }
 
-void Fireworks::SetSpeed(float s)
-{
-	mSpeed = s;
-}
+    void Fireworks::SetSpeed(float s) {
+        mSpeed = s;
+    }
 
-void Fireworks::SetNumberOfParticles(int num)
-{
-}
+    void Fireworks::SetNumberOfParticles(int num) {
+        this->mNum = num;
 
-void Fireworks::Start()
-{
-	cout << "Fireworks started!" << endl;
-}
+    }
 
-void Fireworks::Stop()
-{
-	cout << "Fireworks stopped!\n" << endl;
-}
+    void Fireworks::Start() {
+        cout << "Fireworks started!" << endl;
+    }
 
-void Fireworks::NextFrame(float dt)
-{
-	cout << "Next Frame..." << endl;
-}
+    void Fireworks::Stop() {
+        cout << "Fireworks stopped!\n" << endl;
+    }
+
+    void Fireworks::NextFrame(float dt) {
+        cout << "Next Frame..." << endl;
+    }
 
 }

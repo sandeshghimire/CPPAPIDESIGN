@@ -13,35 +13,34 @@
 
 #ifndef DOXYGEN_SHOULD_SKIP_THIS
 extern "C" {
-  struct _xmlAttribute;
+struct _xmlAttribute;
 }
 #endif //#ifndef DOXYGEN_SHOULD_SKIP_THIS
 
-namespace xmlpp
-{
+namespace xmlpp {
 
 /** Represents the default value of an attribute of an XML Element node.
  * This will be instantiated by the parser.
  *
  * @newin{2,36}
  */
-class AttributeDeclaration : public Attribute
-{
-public:
-  explicit AttributeDeclaration(_xmlNode* node);
-  ~AttributeDeclaration() override;
+    class AttributeDeclaration : public Attribute {
+    public:
+        explicit AttributeDeclaration(_xmlNode *node);
 
-  /** Get the default value of this attribute.
-   * @returns The attribute's default value.
-   */
-  Glib::ustring get_value() const override;
+        ~AttributeDeclaration() override;
 
-  ///Access the underlying libxml implementation.
-  _xmlAttribute* cobj() noexcept;
+        /** Get the default value of this attribute.
+         * @returns The attribute's default value.
+         */
+        Glib::ustring get_value() const override;
 
-  ///Access the underlying libxml implementation.
-  const _xmlAttribute* cobj() const noexcept;
-};
+        ///Access the underlying libxml implementation.
+        _xmlAttribute *cobj() noexcept;
+
+        ///Access the underlying libxml implementation.
+        const _xmlAttribute *cobj() const noexcept;
+    };
 
 } // namespace xmlpp
 

@@ -20,3 +20,13 @@ void Original::DoOperation(int value, bool extra_arg)
 	cout << "In Original::DoSomething with value " << value;
 	cout << " and flag " << extra_arg << endl;
 }
+
+Original::Original()
+{
+
+}
+
+Original::~Original()
+{
+
+}

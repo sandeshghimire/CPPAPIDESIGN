@@ -8,35 +8,29 @@
 
 #include <libxml/tree.h>
 
-namespace xmlpp
-{
+namespace xmlpp {
 
-AttributeDeclaration::AttributeDeclaration(xmlNode* node)
-  : Attribute(node)
-{
-}
+    AttributeDeclaration::AttributeDeclaration(xmlNode *node)
+            : Attribute(node) {
+    }
 
-AttributeDeclaration::~AttributeDeclaration()
-{
-}
+    AttributeDeclaration::~AttributeDeclaration() {
+    }
 
-Glib::ustring AttributeDeclaration::get_value() const
-{
-  return (const char*)cobj()->defaultValue;
-}
+    Glib::ustring AttributeDeclaration::get_value() const {
+        return (const char *) cobj()->defaultValue;
+    }
 
-xmlAttribute* AttributeDeclaration::cobj() noexcept
-{
-  // An XML_ATTRIBUTE_DECL is represented by an xmlAttribute struct. Reinterpret
-  // the xmlNode pointer stored in the base class as an xmlAttribute pointer.
-  return reinterpret_cast<xmlAttribute*>(Node::cobj());
-}
+    xmlAttribute *AttributeDeclaration::cobj() noexcept {
+        // An XML_ATTRIBUTE_DECL is represented by an xmlAttribute struct. Reinterpret
+        // the xmlNode pointer stored in the base class as an xmlAttribute pointer.
+        return reinterpret_cast<xmlAttribute *>(Node::cobj());
+    }
 
-const xmlAttribute* AttributeDeclaration::cobj() const noexcept
-{
-  // An XML_ATTRIBUTE_DECL is represented by an xmlAttribute struct. Reinterpret
-  // the xmlNode pointer stored in the base class as an xmlAttribute pointer.
-  return reinterpret_cast<const xmlAttribute*>(Node::cobj());
-}
+    const xmlAttribute *AttributeDeclaration::cobj() const noexcept {
+        // An XML_ATTRIBUTE_DECL is represented by an xmlAttribute struct. Reinterpret
+        // the xmlNode pointer stored in the base class as an xmlAttribute pointer.
+        return reinterpret_cast<const xmlAttribute *>(Node::cobj());
+    }
 
 } //namespace xmlpp

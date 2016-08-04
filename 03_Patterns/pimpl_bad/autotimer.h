@@ -18,55 +18,53 @@
 
 // Bad: exposes platform specifics in your header file
 #ifdef _WIN32
+
 #include <windows.h>
+
 #else
 #include <sys/time.h>
 #endif
 
 namespace apibook {
 
-class AutoTimer
-{
-public:
-	// Bad: exposes (and inlines) implementation details
-	explicit AutoTimer(const std::string &name) :
-		mName(name)
-	{
+    class AutoTimer {
+    public:
+        // Bad: exposes (and inlines) implementation details
+        explicit AutoTimer(const std::string &name) :
+                mName(name) {
 #ifdef _WIN32
-		mStartTime = GetTickCount();
+            mStartTime = GetTickCount();
 #else
-		gettimeofday(&mStartTime, NULL);
+            gettimeofday(&mStartTime, NULL);
 #endif
-	}
+        }
 
-	~AutoTimer()
-	{
-		std::cout << mName << ": took " << GetElapsed()
-				  << " secs" << std::endl;
-	}
+        ~AutoTimer() {
+            std::cout << mName << ": took " << GetElapsed()
+                      << " secs" << std::endl;
+        }
 
-	// Bad: no need to expose this function publicly
-	double GetElapsed() const
-	{
+        // Bad: no need to expose this function publicly
+        double GetElapsed() const {
 #ifdef _WIN32
-		return (GetTickCount() - mStartTime) / 1e3;
+            return (GetTickCount() - mStartTime) / 1e3;
 #else
-		struct timeval end_time;
-		gettimeofday(&end_time, NULL);
-		double t1 = mStartTime.tv_usec / 1e6 + mStartTime.tv_sec;
-		double t2 = end_time.tv_usec / 1e6 + end_time.tv_sec;
-		return t2 - t1;
+            struct timeval end_time;
+            gettimeofday(&end_time, NULL);
+            double t1 = mStartTime.tv_usec / 1e6 + mStartTime.tv_sec;
+            double t2 = end_time.tv_usec / 1e6 + end_time.tv_sec;
+            return t2 - t1;
 #endif
-	}
+        }
 
-	// Bad: data members should always be private
-	std::string mName;
+        // Bad: data members should always be private
+        std::string mName;
 #ifdef _WIN32
-	DWORD mStartTime;
+        DWORD mStartTime;
 #else
-	struct timeval mStartTime;
+        struct timeval mStartTime;
 #endif
-};
+    };
 
 }
 

@@ -17,21 +17,18 @@ using std::cout;
 using std::endl;
 
 Adapter::Adapter()
-	: mOrig(new Original)
-{
-	cout << "Allocated new Original object inside Adapter" << endl;
+        : mOrig(new Original) {
+    cout << "Allocated new Original object inside Adapter" << endl;
 }
 
-Adapter::~Adapter()
-{
-	delete mOrig;
-	cout << "Destroyed Original object inside Adapter" << endl;
+Adapter::~Adapter() {
+    delete mOrig;
+    cout << "Destroyed Original object inside Adapter" << endl;
 }
 
-bool Adapter::DoSomething(int value)
-{
-	cout << "About to call Original::DoOperation from Adapter::DoSomething" << endl;
-	mOrig->DoOperation(value, true);
-	return true;
+bool Adapter::DoSomething(int value) {
+    cout << "About to call Original::DoOperation from Adapter::DoSomething" << endl;
+    mOrig->DoOperation(value, true);
+    return true;
 }
 

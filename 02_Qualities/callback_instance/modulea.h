@@ -23,15 +23,14 @@ namespace apibook {
 /// can be used for the callback. This essentially accepts the
 /// object instance as an additional parameter.
 ///
-class ModuleA
-{
-public:
-    /// A static function that lets you call a member function
-	static void StaticWrapper(void *obj, const std::string &name, void *data);
+    class ModuleA {
+    public:
+        /// A static function that lets you call a member function
+        static void StaticWrapper(void *obj, const std::string &name, void *data);
 
-    /// The member function callback
-	void InstanceMethod(const std::string &name, void *data);
-};
+        /// The member function callback
+        void InstanceMethod(const std::string &name, void *data);
+    };
 
 }
 

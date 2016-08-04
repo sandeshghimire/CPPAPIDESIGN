@@ -17,31 +17,33 @@ namespace apibook {
 ///
 /// A class template to represent a 2D coordinate.
 ///
-template <class T>
-class Coord2D
-{
-public:
-	/// Construct a new coordinate with specific values
-	Coord2D(T x, T y);
+    template<class T>
+    class Coord2D {
+    public:
+        /// Construct a new coordinate with specific values
+        Coord2D(T x, T y);
 
-	/// Return the X coordinate value
-	T GetX() const;
-	/// Return the Y coordinate value
-	T GetY() const;
+        /// Return the X coordinate value
+        T GetX() const;
 
-	/// Set the X coordinate value
-	void SetX(T x);
-	/// Set the Y coordinate value
-	void SetY(T y);
+        /// Return the Y coordinate value
+        T GetY() const;
 
-	/// Add dx to the X coordinate and dy to the Y coordinate
-	void Add(T dx, T dy);
-	/// Multiply the X coordinate by dx and the Y coordinate by dy
-	void Multiply(T dx, T dy);
+        /// Set the X coordinate value
+        void SetX(T x);
 
-private:
-	T mX, mY;
-};
+        /// Set the Y coordinate value
+        void SetY(T y);
+
+        /// Add dx to the X coordinate and dy to the Y coordinate
+        void Add(T dx, T dy);
+
+        /// Multiply the X coordinate by dx and the Y coordinate by dy
+        void Multiply(T dx, T dy);
+
+    private:
+        T mX, mY;
+    };
 
 }
 

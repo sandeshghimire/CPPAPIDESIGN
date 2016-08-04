@@ -13,10 +13,9 @@
 
 using namespace apibook;
 
-int main(int, char **)
-{
-	// The NPI lets you create method chains to simulate optional params
-	Timer timer = Timer().SetDelay(10.0).SetSingleShot(true).Start();
+int main(int, char **) {
+    // The NPI lets you create method chains to simulate optional params
+    Timer timer = Timer().SetDelay(10.0).SetSingleShot(true).Start();
 
-	return 0;
+    return 0;
 }

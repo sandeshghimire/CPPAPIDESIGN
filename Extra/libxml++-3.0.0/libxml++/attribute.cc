@@ -8,16 +8,13 @@
 
 #include <libxml/tree.h>
 
-namespace xmlpp
-{
+namespace xmlpp {
 
-Attribute::Attribute(xmlNode* node)
-  : Node(node)
-{
-}
+    Attribute::Attribute(xmlNode *node)
+            : Node(node) {
+    }
 
-Attribute::~Attribute()
-{
-}
+    Attribute::~Attribute() {
+    }
 
 } //namespace xmlpp

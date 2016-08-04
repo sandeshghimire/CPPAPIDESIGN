@@ -18,8 +18,12 @@
 class Original
 {
 public:
+	virtual ~Original();
+
 	/// A function that does something!
 	void DoOperation(int value, bool extra_arg);
+
+	Original();
 };
 
 #endif

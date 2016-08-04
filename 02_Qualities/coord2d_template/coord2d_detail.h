@@ -16,48 +16,41 @@
 
 namespace apibook {
 
-template <class T>
-Coord2D<T>::Coord2D(T x, T y) : mX(x), mY(y)
-{
-};
+    template<class T>
+    Coord2D<T>::Coord2D(T x, T y) : mX(x), mY(y) {
+    };
 
-template <class T>
-T Coord2D<T>::GetX() const
-{
-	return mX;
-}
+    template<class T>
+    T Coord2D<T>::GetX() const {
+        return mX;
+    }
 
-template <class T>
-T Coord2D<T>::GetY() const
-{
-	return mY;
-}
+    template<class T>
+    T Coord2D<T>::GetY() const {
+        return mY;
+    }
 
-template <class T>
-void Coord2D<T>::SetX(T x)
-{
-	mX = x;
-}
+    template<class T>
+    void Coord2D<T>::SetX(T x) {
+        mX = x;
+    }
 
-template <class T>
-void Coord2D<T>::SetY(T y)
-{
-	mY = y;
-}
+    template<class T>
+    void Coord2D<T>::SetY(T y) {
+        mY = y;
+    }
 
-template <class T>
-void Coord2D<T>::Add(T dx, T dy)
-{
-	mX += dx;
-	mY += dy;
-}
+    template<class T>
+    void Coord2D<T>::Add(T dx, T dy) {
+        mX += dx;
+        mY += dy;
+    }
 
-template <class T>
-void Coord2D<T>::Multiply(T dx, T dy)
-{
-	mX *= dx;
-	mY *= dy;
-}
+    template<class T>
+    void Coord2D<T>::Multiply(T dx, T dy) {
+        mX *= dx;
+        mY *= dy;
+    }
 
 
 }

@@ -17,57 +17,49 @@ using std::endl;
 
 namespace apibook {
 
-class Timer::Impl
-{
-public:
-	float mDelay;
-	bool mSingleShot;
-};
+    class Timer::Impl {
+    public:
+        float mDelay;
+        bool mSingleShot;
+    };
 
-Timer::Timer() :
-	mImpl(new Timer::Impl)
-{
-	mImpl->mDelay = 0.0f;
-	mImpl->mSingleShot = false;
-}
+    Timer::Timer() :
+            mImpl(new Timer::Impl) {
+        mImpl->mDelay = 0.0f;
+        mImpl->mSingleShot = false;
+    }
 
-Timer::~Timer()
-{
-	delete mImpl;
-	mImpl = NULL;
-}
+    Timer::~Timer() {
+        delete mImpl;
+        mImpl = NULL;
+    }
 
-Timer::Timer(const Timer &other) :
-	mImpl(new Timer::Impl)
-{
-	mImpl->mDelay = other.mImpl->mDelay;
-	mImpl->mSingleShot = other.mImpl->mSingleShot;
-}
+    Timer::Timer(const Timer &other) :
+            mImpl(new Timer::Impl) {
+        mImpl->mDelay = other.mImpl->mDelay;
+        mImpl->mSingleShot = other.mImpl->mSingleShot;
+    }
 
-const Timer &Timer::operator =(const Timer &other)
-{
-	mImpl->mDelay = other.mImpl->mDelay;
-	mImpl->mSingleShot = other.mImpl->mSingleShot;
-	return *this;
-}
+    const Timer &Timer::operator=(const Timer &other) {
+        mImpl->mDelay = other.mImpl->mDelay;
+        mImpl->mSingleShot = other.mImpl->mSingleShot;
+        return *this;
+    }
 
-Timer &Timer::SetDelay(float t)
-{
-	mImpl->mDelay = t;
-	return *this;
-}
+    Timer &Timer::SetDelay(float t) {
+        mImpl->mDelay = t;
+        return *this;
+    }
 
-Timer &Timer::SetSingleShot(bool ss)
-{
-	mImpl->mSingleShot = ss;
-	return *this;
-}
-	
-Timer &Timer::Start()
-{
-	cout << "Start timer: delay = " << mImpl->mDelay;
-	cout << ", single-shot = " << mImpl->mSingleShot << endl;
-	return *this;
-}
+    Timer &Timer::SetSingleShot(bool ss) {
+        mImpl->mSingleShot = ss;
+        return *this;
+    }
+
+    Timer &Timer::Start() {
+        cout << "Start timer: delay = " << mImpl->mDelay;
+        cout << ", single-shot = " << mImpl->mSingleShot << endl;
+        return *this;
+    }
 
 }
