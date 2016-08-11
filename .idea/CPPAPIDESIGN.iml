@@ -158,10 +158,6 @@
       <sourceFolder url="file://$MODULE_DIR$/03_Patterns/factory_simple/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03_Patterns/factory_simple/rendererfactory.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03_Patterns/factory_simple/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/03_Patterns/pimpl_bad/main.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/03_Patterns/pimpl_bad/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/03_Patterns/pimpl_bad/autotimer.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/03_Patterns/pimpl_bad/autotimer.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03_Patterns/proxy_simple/original.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03_Patterns/proxy_simple/proxy.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03_Patterns/proxy_simple/proxy.h" isTestSource="false" />
@@ -201,6 +197,10 @@
       <sourceFolder url="file://$MODULE_DIR$/03_Patterns/facade/facade.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03_Patterns/facade/original.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03_Patterns/facade/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03_Patterns/pimpl_bad/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03_Patterns/pimpl_bad/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03_Patterns/pimpl_bad/autotimer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03_Patterns/pimpl_bad/autotimer.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/11_Scripting/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/08_Versioning/deprecate_runtime/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/08_Versioning/deprecate_runtime/myclass.cpp" isTestSource="false" />
