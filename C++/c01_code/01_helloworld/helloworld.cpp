@@ -1,5 +1,3 @@
-// helloworld.cpp
-
 #include <iostream>
 
 int main()
