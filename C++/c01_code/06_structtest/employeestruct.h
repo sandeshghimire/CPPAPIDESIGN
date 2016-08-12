@@ -5,4 +5,13 @@ struct Employee {
 	char lastInitial;
 	int  employeeNumber;
 	int  salary;
-}; 
+};
+
+
+struct Record
+{
+	int age;
+	int id;
+	bool hired;
+
+};

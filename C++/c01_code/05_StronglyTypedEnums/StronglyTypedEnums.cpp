@@ -1,3 +1,33 @@
+enum class DAYS : unsigned char
+{
+	SUN,
+	MON,
+	TUE,
+	WED,
+	THU,
+	FRI,
+	SAT,
+};
+
+
+enum class MONTH : unsigned char
+{
+	JAN,
+	FEB,
+	MAR,
+	APR,
+	MAY,
+	JUN,
+	JUL,
+	AUG,
+	SEP,
+	OCT,
+	NOV,
+	DEC
+};
+
+
+
 enum class MyEnum
 {
 	EnumValue1,
@@ -14,6 +44,15 @@ enum class MyEnumLong : unsigned long
 
 int main()
 {
+    DAYS day = DAYS::MON;
+
 	MyEnum value1 = MyEnum::EnumValue1;
+
+
+
+
+
+
+
 	return 0;
 }
