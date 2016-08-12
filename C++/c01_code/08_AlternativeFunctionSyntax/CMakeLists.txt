@@ -1,2 +1,1 @@
-
-
+add_executable(AlternativeFunctionSyntax AlternativeFunctionSyntax.cpp)

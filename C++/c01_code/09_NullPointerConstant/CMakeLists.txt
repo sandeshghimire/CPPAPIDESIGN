@@ -1,2 +1,2 @@
-
+add_executable(NullPointerConstant NullPointerConstant.cpp)
 
