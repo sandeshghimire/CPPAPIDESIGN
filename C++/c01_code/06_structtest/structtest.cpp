@@ -5,27 +5,31 @@ using namespace std;
 
 int main()
 {
-	// create and populate an employee
-	Employee anEmployee;
+    // create and populate an employee
+    DX::Employee anEmployee;
 
-	Record r;
+    DX::Record r;
 
-	anEmployee.firstInitial = 'M';
-	anEmployee.lastInitial = 'G';
-	anEmployee.employeeNumber = 42;
-	anEmployee.salary = 80000;
+    anEmployee.firstInitial = 'M';
+    anEmployee.lastInitial = 'G';
+    anEmployee.employeeNumber = 42;
+    anEmployee.salary = 80000;
 
-	r.age = 34;
-	r.hired = false;
-	r.id = 2345675;
+    r.EmployeeAge = 34;
+    r.EmployeeHired = false;
+    r.EmployeeId = 2345675;
 
 
 
-	// output the values of an employee
-	cout << "Employee: " << anEmployee.firstInitial << 
-							anEmployee.lastInitial << endl;
-	cout << "Number: " << anEmployee.employeeNumber << endl;
-	cout << "Salary: $" << anEmployee.salary << endl;
+    // output the values of an employee
+    cout << "Employee: " << anEmployee.firstInitial << anEmployee.lastInitial << endl;
+    cout << "Number: " << anEmployee.employeeNumber << endl;
+    cout << "Salary: $" << anEmployee.salary << endl;
 
-	return 0;
+    cout << "EmployeeAge" << r.EmployeeAge << endl;
+
+
+
+
+    return 0;
 }

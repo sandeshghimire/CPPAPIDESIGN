@@ -1,17 +1,21 @@
 #pragma once
 
-struct Employee {
-	char firstInitial;
-	char lastInitial;
-	int  employeeNumber;
-	int  salary;
-};
-
-
-struct Record
+namespace DX
 {
-	int age;
-	int id;
-	bool hired;
+    struct Employee
+    {
+        char firstInitial;
+        char lastInitial;
+        int employeeNumber;
+        int salary;
+    };
 
-};
+
+    struct Record
+    {
+        int EmployeeAge;
+        int EmployeeId;
+        bool EmployeeHired;
+
+    };
+}

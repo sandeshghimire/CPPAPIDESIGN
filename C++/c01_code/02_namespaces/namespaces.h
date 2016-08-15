@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-namespace mycode
+namespace DX
 {
     void foo();
     void bar();

@@ -1,8 +1,12 @@
 #include <string>
 
-void mysteryFunction(const std::string* someString)
+
+namespace D1
 {
-    *someString = "Test";  // Will not compile.
+    void mysteryFunction(const std::string *someString)
+    {
+        *someString = "Test";  // Will not compile.
+    }
 }
 
 int main()
@@ -11,3 +15,4 @@ int main()
     mysteryFunction(&myString);
     return 0;
 }
+

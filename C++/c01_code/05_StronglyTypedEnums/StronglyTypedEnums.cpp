@@ -1,58 +1,35 @@
-enum class DAYS : unsigned char
+namespace DX
 {
-	SUN,
-	MON,
-	TUE,
-	WED,
-	THU,
-	FRI,
-	SAT,
-};
+    enum class DAYS : unsigned char
+    {
+        SUN, MON, TUE, WED, THU, FRI, SAT,
+    };
 
 
-enum class MONTH : unsigned char
-{
-	JAN,
-	FEB,
-	MAR,
-	APR,
-	MAY,
-	JUN,
-	JUL,
-	AUG,
-	SEP,
-	OCT,
-	NOV,
-	DEC
-};
+    enum class MONTH : unsigned char
+    {
+        JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC
+    };
 
 
+    enum class MyEnum
+    {
+        EnumValue1, EnumValue2 = 10, EnumValue3
+    };
 
-enum class MyEnum
-{
-	EnumValue1,
-	EnumValue2 = 10,
-	EnumValue3
-};
+    enum class MyEnumLong : unsigned long
+    {
+        EnumValueLong1, EnumValueLong2 = 10, EnumValueLong3
+    };
+}
 
-enum class MyEnumLong : unsigned long
-{
-	EnumValueLong1,
-	EnumValueLong2 = 10,
-	EnumValueLong3
-};
 
 int main()
 {
-    DAYS day = DAYS::MON;
+    DX::DAYS day = DX::DAYS::MON;
 
-	MyEnum value1 = MyEnum::EnumValue1;
-
-
+    DX::MyEnum value1 = DX::MyEnum::EnumValue1;
 
 
-
-
-
-	return 0;
+    return 0;
 }

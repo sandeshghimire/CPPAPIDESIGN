@@ -1,7 +1,7 @@
 #include <iostream>
 #include "namespaces.h"
 
-namespace mycode
+namespace DX
 {
     void foo()
     {
