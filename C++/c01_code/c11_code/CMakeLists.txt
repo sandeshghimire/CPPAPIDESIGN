@@ -1,2 +1,12 @@
-
-
+add_subdirectory(AlternativeFunctionSyntax)
+add_subdirectory(AlternativeFunctionSyntax)
+add_subdirectory(FriendFunctionTemplates)
+add_subdirectory(GameBoard)
+add_subdirectory(GridInheritance)
+add_subdirectory(GridNonTypeDefault)
+add_subdirectory(MethodTemplates)
+add_subdirectory(FunctionTemplate)
+add_subdirectory(Grid)
+add_subdirectory(GridNonType)
+add_subdirectory(GridSpecialization)
+add_subdirectory(MethodTemplatesNonType)

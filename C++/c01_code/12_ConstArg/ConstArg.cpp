@@ -25,7 +25,7 @@ namespace DX
         std::cout << "Input is " << *input << std::endl;
     }
 
-    void mysteryFunction5(const int * input)
+    void mysteryFunction5(const int *input)
     {
 
         std::cout << "Input is " << *input << std::endl;
@@ -39,7 +39,7 @@ namespace DX
     }
 
 
-    void mysteryFunction7(int * input)
+    void mysteryFunction7(int *input)
     {
 
         std::cout << "Input is " << *input << std::endl;
@@ -50,7 +50,7 @@ namespace DX
 
 int main()
 {
-    int * input = (int *) 34;
+    int *input = (int *) 34;
     std::string myString = "The string";
     DX::mysteryFunction(&myString);
     DX::mysteryFunction3(myString);
@@ -59,9 +59,6 @@ int main()
     DX::mysteryFunction5(input);
     DX::mysteryFunction6(input);
     DX::mysteryFunction7(input);
-
-
-
 
 
     return 0;

@@ -12,6 +12,7 @@ int main()
 	int cost = myTicket.calculatePriceInDollars();
 	cout << "This ticket will cost $" << cost << endl;
 
+#ifdef CPP_14
 	// Heap-based AirlineTicket with smart pointer
 	auto myTicket2 = make_unique<AirlineTicket>();
 	myTicket2->setPassengerName("Laudimore M. Hallidue");
@@ -20,6 +21,7 @@ int main()
 	int cost2 = myTicket2->calculatePriceInDollars();
 	cout << "This other ticket will cost $" << cost2 << endl;
 	// No need to delete myTicket2, happens automatically
+#endif /*CPP_14*/
 
 	// Heap-based AirlineTicket without smart pointer (not recommended)
 	AirlineTicket* myTicket3 = new AirlineTicket();

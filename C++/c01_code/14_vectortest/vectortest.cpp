@@ -17,12 +17,14 @@ int main()
 	// Print the elements using a range-based for loop
     for (const auto& str : myVector)
         cout << str << endl;
-    
+
+#ifdef CPP_14
 	// Iterate over the elements in the vector and print them once more
 	for (auto iterator = cbegin(myVector);
 		iterator != cend(myVector); ++iterator) {
 		cout << *iterator << endl;
     }
+#endif /*CPP_14*/
     
 	return 0;
 }
