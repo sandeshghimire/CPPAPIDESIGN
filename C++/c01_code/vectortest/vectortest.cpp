@@ -18,11 +18,7 @@ int main()
     for (const auto& str : myVector)
         cout << str << endl;
     
-	// Iterate over the elements in the vector and print them once more
-	for (auto iterator = cbegin(myVector);
-		iterator != cend(myVector); ++iterator) {
-		cout << *iterator << endl;
-    }
+
     
 	return 0;
 }
