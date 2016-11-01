@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.4)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 add_subdirectory(C++)
+add_subdirectory(CESS)
 SET(GCC_COVERAGE_COMPILE_FLAGS "-fprofile-arcs -ftest-coverage")
 SET(GCC_COVERAGE_LINK_FLAGS    "-lgcov")
 add_definitions(${GCC_COVERAGE_COMPILE_FLAGS})
