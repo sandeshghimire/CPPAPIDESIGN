@@ -1,8 +1,18 @@
 #include <stdio.h>
 
-
-int main(int argc, char** argv)
+int main(int argc, char **argv) 
 {
-    printf("Hello World");
-    return 0;
+  unsigned int number = 0x2;
+  unsigned int tmp = 0;
+
+  printf("the number is %d \n", number);
+
+  // clear bit 
+  number = (number | 1) << 10;
+  printf("the number is %d \n", number);
+  tmp = ~(  (tmp | 1) << 10); 
+  number &= tmp;
+
+  printf("the number is %X \n", number);
+  return 0;
 }
