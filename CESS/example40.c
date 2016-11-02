@@ -1,19 +1,15 @@
 #include <stdio.h>
 
+int myFucntion (int a, int b) ;
 
-int main(int argc, char** argv)
+int main(int argc, char **argv) 
 {
-    unsigned int number = 0x01;
+  int len = (*myFucntion)(1, 2);
+  return 0;
+}
 
-    // shift bit by 9
-    
-    printf("the number is %d \n", number);
-
-    // shift bit by 9
-
-    number |= number << 9;
-
-    printf("the number is %d \n", number);
-
-    return 0;
+int myFucntion (int a, int b) 
+{
+  printf("hello world %d %d \n", a, b);
+  return 0;
 }

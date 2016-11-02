@@ -1,19 +1,17 @@
 #include <stdio.h>
 
+int main(int argc, char **argv) {
+    unsigned int cmd = 0;
+  switch (cmd) {
+  case 1:
+    break;
+  case 2:
+    break;
+  case 3:
+    break;
+  default:
+    break;
+  }
 
-int main(int argc, char** argv)
-{
-    unsigned int number = 0x01;
-
-    // shift bit by 9
-    
-    printf("the number is %d \n", number);
-
-    // shift bit by 9
-
-    number |= number << 9;
-
-    printf("the number is %d \n", number);
-
-    return 0;
+  return 0;
 }
