@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 
+// shift left and shift right 
+
 int main(int argc, char** argv)
 {
     int x = 5; 
