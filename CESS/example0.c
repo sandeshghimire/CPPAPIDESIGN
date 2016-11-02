@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-// shift left and shift right 
+// swap without temp variable 
 
 int main(int argc, char** argv)
 {
