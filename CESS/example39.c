@@ -3,17 +3,15 @@
 
 int main(int argc, char** argv)
 {
-    unsigned int number = 0x01;
-
-    // shift bit by 9
+    int x = 500;
     
-    printf("the number is %d \n", number);
-
-    // shift bit by 9
-
-    number |= number << 9;
-
-    printf("the number is %d \n", number);
+    sum(x, x, x, x++);
 
     return 0;
+}
+
+
+int sum(int a, int b, int c, int d)
+{
+    printf("a is %d \nb is %d \nc is %d \nd is %d \n", a, b , c , d);
 }
