@@ -1,19 +1,22 @@
 #include <stdio.h>
 
+typedef struct {
+  float real;
+  float img;
 
-int main(int argc, char** argv)
-{
-    unsigned int number = 0x01;
+} complex;
 
-    // shift bit by 9
-    
-    printf("the number is %d \n", number);
+int main(int argc, char **argv) {
 
-    // shift bit by 9
+  complex c;
+  c.real = 3.0;
+  c.img = 4.7;
+  
 
-    number |= number << 9;
+  double *dp = (double *) &c;
 
-    printf("the number is %d \n", number);
+  printf("the real and complex relationship %f %f \n", c.real, c.img);
+   printf("the real and complex relationship %f %f %f \n", *dp, *(dp+1), *(dp+2));
 
-    return 0;
+  return 0;
 }

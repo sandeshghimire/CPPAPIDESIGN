@@ -1,19 +1,24 @@
 #include <stdio.h>
 
+union {
+  unsigned char bytes[8];
+  unsigned int ints[2];
+  unsigned long int dubint;
 
-int main(int argc, char** argv)
-{
-    unsigned int number = 0x01;
+  struct {
+    unsigned long int upper : 32;
+    unsigned long int lower : 32;
+  } bits;
+} u;
 
-    // shift bit by 9
-    
-    printf("the number is %d \n", number);
+int main(int argc, char **argv) {
 
-    // shift bit by 9
+  u.dubint = 0xAABBCCDDAABBCCDD;
+  printf("%X %X \n", u.ints[0], u.ints[1]);
+  u.bits.upper = 0x55;
+  u.bits.lower = 0x78;
 
-    number |= number << 9;
+  printf("%X %X \n", u.ints[0], u.ints[1]);
 
-    printf("the number is %d \n", number);
-
-    return 0;
+  return 0;
 }

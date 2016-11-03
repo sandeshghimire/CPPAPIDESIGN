@@ -3,17 +3,15 @@
 
 int main(int argc, char** argv)
 {
-    unsigned int number = 0x01;
+    unsigned int number = 0xABCDEFAA;
 
-    // shift bit by 9
-    
-    printf("the number is %d \n", number);
+    unsigned char * p = (unsigned char *)(&number);
+    unsigned char num = (unsigned char) number;
 
-    // shift bit by 9
+    printf("%X and %X \n\n", number, num);
 
-    number |= number << 9;
 
-    printf("the number is %d \n", number);
+     printf("%X  %X  %X %X %X\n\n", *p, *(p+1), *(p+2), *(p+3), *(p+4)); // little endian 
 
     return 0;
 }
