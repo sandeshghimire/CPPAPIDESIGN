@@ -1,19 +1,78 @@
 #include <stdio.h>
+#include <math.h>
 
+char a[10][10];
+int n;
 
-int main(int argc, char** argv)
+void printmatrix()
 {
-    unsigned int number = 0x01;
+    int i, j;
+    printf("\n");
 
-    // shift bit by 9
-    
-    printf("the number is %d \n", number);
+    for (i = 0; i < n; i++)
+    {
+        for (j = 0; j < n; j++)
+            printf("%c\t", a[i][j]);
+        printf("\n\n");
+    }
+}
 
-    // shift bit by 9
+int getmarkedcol(int row)
+{
+    int i;
+    for (i = 0; i < n; i++)
+        if (a[row][i] == 'Q')
+        {
+            return (i);
+            break;
+        }
+}
 
-    number |= number << 9;
+int feasible(int row, int col)
+{
+    int i, tcol;
+    for (i = 0; i < n; i++)
+    {
+        tcol = getmarkedcol(i);
+        if (col == tcol || abs(row - i) == abs(col - tcol))
+            return 0;
+    }
+    return 1;
+}
 
-    printf("the number is %d \n", number);
+void nqueen(int row)
+{
+    int i, j;
+    if (row < n)
+    {
+        for (i = 0; i < n; i++)
+        {
+            if (feasible(row, i))
+            {
+                a[row][i] = 'Q';
+                nqueen(row + 1);
+                a[row][i] = '.';
+            }
+        }
+    }
+    else
+    {
+        printf("\nThe solution is:- ");
+        printmatrix();
+    }
+}
 
-    return 0;
+int main()
+{
+    int i, j;
+
+    printf("\nEnter the no. of queens:- ");
+    scanf("%d", &n);
+
+    for (i = 0; i < n; i++)
+        for (j = 0; j < n; j++)
+            a[i][j] = '.';
+
+    nqueen(0);
+    return (0);
 }

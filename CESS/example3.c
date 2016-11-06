@@ -13,6 +13,8 @@ int main(int argc, char **argv)
   tmp = ~(  (tmp | 1) << 10); 
   number &= tmp;
 
+  number &= ~(1 << 1);
+
   printf("the number is %X \n", number);
   return 0;
 }
