@@ -34,4 +34,8 @@ void printCharAtTime(char * msg)
 
     }
     printf("\n");
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 }
