@@ -33,4 +33,7 @@ build/*
 .idea/
 build/
 09_Documentation/doxygen/htmldoc/*
-
+.idea
+.vscode
+.idea/modules.xml
+*.xml
