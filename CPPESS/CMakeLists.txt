@@ -1,1 +1,2 @@
-add_executable(example example.cpp)
+add_subdirectory(Twitter)
+add_subdirectory(Sample)
