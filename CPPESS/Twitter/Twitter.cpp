@@ -1,29 +1,16 @@
-#include <iostream>
+//
+// Created by Sandesh Ghimire on 11/11/2016.
+//
 
-int main(int argc , char ** argv)
+#include "Twitter.h"
+
+
+Twitter::Twitter() 
 {
-    return 0;
-
+    
 }
 
-
-/*
-static void reverse(struct node** head_ref)
+Twitter::~Twitter() 
 {
-    struct node* prev   = NULL;
-    struct node* current = *head_ref;
-    struct node* next;
-    while (current != NULL)
-    {
-        next  = current->next;  
-        current->next = prev;   
-        prev = current;
-        current = next;
-    }
-    *head_ref = prev;
-}*/
 
-
-
-
-
+}

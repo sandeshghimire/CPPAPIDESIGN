@@ -1,1 +1,1 @@
-add_executable(Twitter Twitter.cpp)
+add_executable(Twitter main.cpp Twitter.cpp Twitter.h)
