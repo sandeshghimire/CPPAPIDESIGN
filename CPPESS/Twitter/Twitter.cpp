@@ -14,3 +14,8 @@ Twitter::~Twitter()
 {
 
 }
+
+T_AUTH Twitter::authenticate(std::string username, std::string passwrod) {
+
+    return AUTH_PASS;
+}
